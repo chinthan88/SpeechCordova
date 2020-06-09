@@ -138,7 +138,7 @@
             if ( result.isFinal ) {
                 NSLog(@"startListening() recognitionTask isFinal");
                 
-                CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"listening Completed"];
+                CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_NO_RESULT messageAsString:@"Listening Completed"];
     
                 [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 

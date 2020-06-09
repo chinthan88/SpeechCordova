@@ -92,7 +92,7 @@
                    var btn = document.getElementById("speechBtn");
                    btn.value = "Start";
                    btn.innerHTML = "Start";
-                   btn.style.backgroundColor = "#D84315"
+                   btn.style.backgroundColor = "#004D40"
                    SpeechToTextPlugin.requestPermission(function(result) {
                        
                    }, function(error) {
