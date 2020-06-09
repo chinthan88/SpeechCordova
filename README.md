@@ -6,7 +6,7 @@ This sample app is having 2 screens
 1. Text to Speech Screen
 2. Speech to Text Screen
 
-## Plugin Installation
+## Installation
 
 Download/Clone this project and build to run this app.
 
