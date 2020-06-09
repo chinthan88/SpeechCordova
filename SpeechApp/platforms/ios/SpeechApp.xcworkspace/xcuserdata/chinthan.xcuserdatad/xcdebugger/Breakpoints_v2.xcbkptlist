@@ -62,8 +62,8 @@
             filePath = "SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "204"
-            endingLineNumber = "204"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
             landmarkName = "-requestPermission:"
             landmarkType = "7">
             <Locations>
@@ -158,8 +158,8 @@
             filePath = "SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "149"
-            endingLineNumber = "149"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
             landmarkName = "-startListening:"
             landmarkType = "7">
             <Locations>

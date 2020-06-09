@@ -20,9 +20,9 @@
            var switchStatusSST = false;
 
            var englishText = "We have to make a Cordova plugin that will work on Cordova Apps for Android & iOS. Both English and Hindi conversion should work.Expected result would be a Cordova App with the demo of the above plugin functionality.";
-           var hindiText = "कम्प्यूटर आधुनिक तकनीक की एक महान खोज है। ये एक सामान्य मशीन है जो अपनी मेमोरी में ढेर सारे डाटा को सुरक्षित रखने की क्षमता रखती है ये इनपुट और आउटपुट(प्रिंटर) के इस्तेमाल से काम करता है";
-           var locale = "en-US"
-           var localeSST = "en-US"
+           var hindiText = "कम्प्यूटर आधुनिक तकनीक की एक महान खोज है। ये एक सामान्य मशीन है जो अपनी मेमोरी में ढेर सारे डाटा को सुरक्षित रखने की क्षमता रखती है ये इनपुट और आउटपुट के इस्तेमाल से काम करता है";
+           var locale = "en-IN"
+           var localeSST = "en-IN"
 
            var textAreaText = "";
            if(switchStatus == false) {
@@ -53,7 +53,7 @@
                      }
                      else {
                         switchStatus = $(this).is(':checked');
-                        localeSST = "en-US"
+                        localeSST = "en-IN"
                      }
                  });
 
@@ -79,11 +79,9 @@
            SpeechToTextPlugin.hasPermission(function(result) {
                if(result) {
                    SpeechToTextPlugin.startListening(function(result) {
-
                        document.getElementById("SSTArea").innerHTML = result;
-
                    }, function(error) {
-                       alert('error');
+                       alert(error);
                    },{
                        language: localeSST,
                        matches: 1,
@@ -91,11 +89,14 @@
                    });
                }
                else {
+                   var btn = document.getElementById("speechBtn");
+                   btn.value = "Start";
+                   btn.innerHTML = "Start";
+                   btn.style.backgroundColor = "#D84315"
                    SpeechToTextPlugin.requestPermission(function(result) {
-                       alert('result');
-
+                       
                    }, function(error) {
-                       alert('error');
+                       alert(error);
                    });
                }
            }, function(error) {
@@ -113,9 +114,6 @@
         });
          
           }
-
-
-       
 
        function ButtonClick() {
            var btn = document.getElementById("speechBtn");

@@ -137,6 +137,10 @@
 
             if ( result.isFinal ) {
                 NSLog(@"startListening() recognitionTask isFinal");
+                
+                CDVPluginResult *pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"listening Completed"];
+    
+                [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 
                 [self.audioEngine stop];
                 [self.audioEngine.inputNode removeTapOnBus:0];
