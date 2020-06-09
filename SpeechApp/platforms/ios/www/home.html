@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+<head>
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/index.css"><style>
+
+#TTS {background-color: #C51162;}
+#STT {background-color: #00796B;}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('TTS', this, '#C51162')"  id="defaultOpen">Text to Speech</button>
+<button class="tablink" onclick="openPage('STT', this, '#00796B')">Speech to Text</button>
+
+<div id="TTS" class="tabcontent">
+  <h1>Text To Speech</h3>
+  <div>
+      <h3>Hindi Text</h2>
+
+          <div>
+      <label class="switch">
+        <input type="checkbox" id="togBtn" >
+        <span class="slider round"></span>
+      </label>
+      </div>
+          <p>
+
+  <textarea id="TTSArea" class="textareaTTS" style="background-color: #880E4F;color:#fff;">
+      Text to speech example
+  </textarea>
+  </p>
+
+  </div>
+  <div class="vertical-center">
+  <button class="StartTTS" onclick="startTextToSpeech()" id="StartTTS">Speak</button>
+  </div>
+</div>
+
+<div id="STT" class="tabcontent">
+   <h1>Speech To Text</h3>
+   <div>
+       <h3>Hindi Text</h2>
+        <div>
+               
+       <label class="switch">
+         <input type="checkbox" id="togBtnSTT" >
+         <span class="slider round"></span>
+       </label>
+       </div>
+  <div>
+  <p>
+  <textarea id="SSTArea" class="textareaTTS" style="background-color: #004D40;color:#fff;">
+  </textarea>
+  </p>
+  </div>
+  <div class="vertical-center">
+  <button class="StartSpeech" onclick="ButtonClick()" id="speechBtn" value="Start">Start</button>
+  </div>
+</div>
+   <script type="text/javascript" src="cordova.js"></script>
+   <script type="text/javascript" src="js/index.js"></script>
+   <script type="text/javascript" src="js/home.js"></script>
+   <script>
+   
+   </script>
+</body>
+</html>

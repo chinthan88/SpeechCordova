@@ -1,0 +1,34 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "chinthan-plugin-texttospeechplugin": {
+    "source": {
+      "type": "local",
+      "path": "/Users/chinthan/Projects/SpeechCordova/SpeechApp/node_modules/TextToSpeechPlugin"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "chinthan-plugin-speechtotextplugin": {
+    "source": {
+      "type": "local",
+      "path": "/Users/chinthan/Projects/SpeechCordova/SpeechApp/node_modules/SpeechToTextPlugin"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-device": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/apache/cordova-plugin-device.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"TextToSpeechPlugin\"><param name=\"ios-package\" value=\"TextToSpeechPlugin\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SpeechRecognition\"><param name=\"ios-package\" value=\"SpeechRecognition\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "NSMicrophoneUsageDescription": [
+            {
+              "xml": "<string>Request to use Microphone</string>",
+              "count": 1
+            }
+          ],
+          "NSSpeechRecognitionUsageDescription": [
+            {
+              "xml": "<string>Request to use Speech Recognition</string>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "chinthan-plugin-texttospeechplugin": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "chinthan-plugin-speechtotextplugin": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "chinthan-plugin-texttospeechplugin.TextToSpeechPlugin",
+      "file": "plugins/chinthan-plugin-texttospeechplugin/www/TextToSpeechPlugin.js",
+      "pluginId": "chinthan-plugin-texttospeechplugin",
+      "clobbers": [
+        "cordova.plugins.TextToSpeechPlugin"
+      ]
+    },
+    {
+      "id": "chinthan-plugin-speechtotextplugin.SpeechToTextPlugin",
+      "file": "plugins/chinthan-plugin-speechtotextplugin/www/SpeechToTextPlugin.js",
+      "pluginId": "chinthan-plugin-speechtotextplugin",
+      "clobbers": [
+        "cordova.plugins.SpeechToTextPlugin"
+      ]
+    },
+    {
+      "id": "cordova-plugin-device.device",
+      "file": "plugins/cordova-plugin-device/www/device.js",
+      "pluginId": "cordova-plugin-device",
+      "clobbers": [
+        "device"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.4",
+    "chinthan-plugin-texttospeechplugin": "0.0.1",
+    "chinthan-plugin-speechtotextplugin": "0.0.1",
+    "cordova-plugin-device": "2.0.4-dev"
+  }
+}

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "06C14BA8-351D-4C6A-92D9-9CD3C1B512A2"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B983F12-B96C-4353-AC4C-E9FBCBDF702F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeechApp/Plugins/chinthan-plugin-texttospeechplugin/TextToSpeechPlugin.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-speak:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01FB6C94-C8F1-47D4-B627-93625A335DF1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../www/js/index.js"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C37301E-9440-442F-B3F0-4093CEE16720"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeechApp/Plugins/chinthan-plugin-texttospeechplugin/TextToSpeechPlugin.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "-speak:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A60E82BD-1D6F-4D2A-A908-B10AEC85F3EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "-requestPermission:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A60E82BD-1D6F-4D2A-A908-B10AEC85F3EE - f30a229891997868"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SpeechToTextPlugin requestPermission:]"
+                  moduleName = "SpeechApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chinthan/Projects/SpeechCordova/SpeechApp/platforms/ios/SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "204"
+                  endingLineNumber = "204"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "A60E82BD-1D6F-4D2A-A908-B10AEC85F3EE - 5691743b416e9ff0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__40-[SpeechToTextPlugin requestPermission:]_block_invoke"
+                  moduleName = "SpeechApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chinthan/Projects/SpeechCordova/SpeechApp/platforms/ios/SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "204"
+                  endingLineNumber = "204"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91EC081C-1449-4143-95CE-1E111DADB430"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-isRecognitionAvailable:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40BA868B-8D21-46FD-9B25-4DE704766768"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "-startListening:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EA2173F-E6C2-4E88-9080-14EE52F24ACF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-startListening:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72E26FA9-2C81-4CBF-B294-3DD110FBD2A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "-startListening:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "72E26FA9-2C81-4CBF-B294-3DD110FBD2A0 - a83d0efb4668485c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__37-[SpeechToTextPlugin startListening:]_block_invoke"
+                  moduleName = "SpeechApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chinthan/Projects/SpeechCordova/SpeechApp/platforms/ios/SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "1981">
+               </Location>
+               <Location
+                  uuid = "72E26FA9-2C81-4CBF-B294-3DD110FBD2A0 - 66a5641025717264"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__37-[SpeechToTextPlugin startListening:]_block_invoke.114"
+                  moduleName = "SpeechApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chinthan/Projects/SpeechCordova/SpeechApp/platforms/ios/SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "72E26FA9-2C81-4CBF-B294-3DD110FBD2A0 - f24aa8dff371b2c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_e8_32s"
+                  moduleName = "SpeechApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chinthan/Projects/SpeechCordova/SpeechApp/platforms/ios/SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1840612-D116-436D-A04F-BC2E8692C656"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "-startListening:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35767AFE-C3A5-4722-AE0E-FF08CC3BA59C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "-startListening:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23003BAE-16D4-4D4A-8B71-69C188F67D32"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "-startListening:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "572D1A49-4812-4C26-82CF-36FCB8B4A06F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeechApp/Plugins/chinthan-plugin-speechtotextplugin/SpeechToTextPlugin.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "-startListening:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
