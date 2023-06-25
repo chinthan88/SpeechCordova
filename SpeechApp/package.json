@@ -15,7 +15,7 @@
   "dependencies": {
     "SpeechToTextPlugin": "file:../../SpeechToTextPlugin",
     "TextToSpeechPlugin": "file:../../TextToSpeechPlugin",
-    "cordova-ios": "^5.1.1",
+    "cordova-ios": "^6.3.0",
     "cordova-plugin-device": "git+https://github.com/apache/cordova-plugin-device.git"
   },
   "devDependencies": {
